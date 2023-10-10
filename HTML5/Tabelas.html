@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Teste de Tabelas</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <h2>Produtos:</h2>
+        <!--
+        border = linha de borda
+        width = largura (pode ser em px ou %)
+        -->
+        <table border="1" width="400">
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>000</td>
+                <td>Air Frier</td>
+                <td>R$ 399,00</td>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Butija de gás</td>
+                <td>R$ 1.000.000,00</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Boneco ManoelGomes</td>
+                <td>R$ 49,99</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td colspan="2">Cupom 1 -15%</td>
+            </tr>
+            <tr>
+                <td colspan="2">Cupom 2 -10%</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td colspan="2">R$1.000.448,99</td>
+            </tr>
+        </table>
+    </body>
+</html>
